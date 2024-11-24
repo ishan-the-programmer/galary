@@ -1,0 +1,156 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+   
+</head>
+<body>
+  <h1>Imaginary Ishan</h1>
+  <div class="pogition-dot">
+  <div class="menu-container">
+    <!-- Three-dot animated icon -->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Menu options -->
+    <ul class="menu-options">
+        <li><a href="#">Home</a></li>
+        <li><a href="file:///D:/html%20folder/contuct%20advance%20page.html">contuct</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#"></a></li>
+    </ul>
+  </div>
+</div>
+   <script>
+      function toggleMenu()
+       {
+          var menuIcon = document.querySelector('.menu-icon');
+          var menuOptions = document.querySelector('.menu-options');
+          menuIcon.classList.toggle('open');
+      }
+
+      // Hide the menu when clicking outside of it
+      window.onclick = function(event) {
+          if (!event.target.closest('.menu-container')) {
+              var menuIcon = document.querySelector('.menu-icon');
+              var menuOptions = document.querySelector('.menu-options');
+              if (menuIcon.classList.contains('open')) {
+                  menuIcon.classList.remove('open');
+              }
+          }
+      }
+    </script>
+    <div class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">I</div>
+                    <div class="description">
+                        <h4>Imaginary_Ishan</h4>
+                       
+                        <p><u>place-</u>Kanakdurga Tample, Jhargram, Westbanagal, India </p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2">
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">II</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u> <a>Gandhigath</a>, <a>Midnapore</a> , Paschim Medinipur, Wesstbangal, India</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3">
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">III</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u>Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4">
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">IV</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u> Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c5">
+            <label for="c5" class="card">
+                <div class="row">
+                    <div class="icon">V</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u> Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c6">
+            <label for="c6" class="card">
+                <div class="row">
+                    <div class="icon"> VI</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u>Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c7">
+            <label for="c7" class="card">
+                <div class="row">
+                    <div class="icon">VII</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u> Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c8">
+            <label for="c8" class="card">
+                <div class="row">
+                    <div class="icon">VIII</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u>Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c9">
+            <label for="c9" class="card">
+                <div class="row">
+                    <div class="icon">IX</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u>Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c10">
+            <label for="c10" class="card">
+                <div class="row">
+                    <div class="icon">X</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p><u>place-</u>Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+    <div class="pogition">
+   <h3><a href="file:///D:/html%20folder/galary2.html"><u> Page</u>2</a> </h3>
+    </div>
+    </body>
+    </html>
